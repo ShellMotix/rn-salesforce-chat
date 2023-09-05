@@ -152,7 +152,7 @@ public class RNSalesforceChatModule extends ReactContextBaseJavaModule implement
 		chatUiConfiguration = new ChatUIConfiguration.Builder()
 				.chatConfiguration(chatConfiguration)
 				.queueStyle(QueueStyle.Position)
-				.defaultToMinimized(false)
+				// .defaultToMinimized(false)
 				.disablePreChatView(true)
 				.build();
 	}
